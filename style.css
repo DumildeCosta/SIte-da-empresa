@@ -257,3 +257,7 @@
         font-size: 0.9rem;
       }
     }
+:root {
+    --primary-color: #1a73e8;
+    --text-dark: #333;
+}
