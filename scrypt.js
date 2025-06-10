@@ -19,4 +19,18 @@ document.addEventListener("DOMContentLoaded", function() {
   
     console.log("Script carregado com sucesso!");
   });
-  
+
+document.addEventListener("DOMContentLoaded", () => {
+    document.querySelector(".main-nav").addEventListener("click", (e) => {
+        if (e.target.tagName === "A") {
+            e.preventDefault();
+            const targetId = e.target.getAttribute("href").substring(1);
+            const targetElement = document.getElementById(targetId);
+            if (!targetElement) return;
+            window.scrollTo({
+                top: targetElement.offsetTop - 60,
+                behavior: "smooth"
+            });
+        }
+    });
+});
