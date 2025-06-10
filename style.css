@@ -261,3 +261,7 @@
     --primary-color: #1a73e8;
     --text-dark: #333;
 }
+/* Melhoria na responsividade */
+.hero {
+    min-height: 400px;
+}
