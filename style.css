@@ -265,3 +265,9 @@
 .hero {
     min-height: 400px;
 }
+body {
+    background-image: url('Copilot_20250612_213115.png'); /* Substitui 'imagem.jpg' pelo link ou caminho da tua imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+}
