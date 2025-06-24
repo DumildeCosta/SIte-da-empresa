@@ -8,7 +8,7 @@
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     background: #fff;
-    color: #333;
+    color: #ffffff;
   }
   
   /* Container Padrão */
@@ -79,12 +79,12 @@
   .hero h1 {
     font-size: 3.2rem;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
   }
   .hero p {
     font-size: 1.2rem;
     margin-bottom: 30px;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
   }
   .btn {
     background: #1a73e8;
@@ -126,7 +126,7 @@
     background: #f8f8f8;
     padding: 40px 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgb(255, 255, 255);
     transition: transform 0.3s ease;
   }
   .card:hover {
@@ -156,9 +156,10 @@
     color: #1a73e8;
     margin-bottom: 10px;
   }
+  /* Nossos resultados*/
   .stat p {
     font-size: 1rem;
-    color: #666;
+    color: #ffffff;
   }
   
   /* Seção de Contato com Tema Escuro */
@@ -267,6 +268,7 @@
 }
 body {
     background-image: url('Copilot_20250612_213115.png'); /* Substitui 'imagem.jpg' pelo link ou caminho da tua imagem */
+    background-attachment: fixed;
     background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita repetição da imagem */
